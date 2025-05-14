@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Segoe UI',sans-serif;
+            background: linear-gradient(120deg,#2980b9,#6dd5fa);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .login1{
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0,0, 0.2);
+            width: 100%;
+            max-width: 400px;
+        }
+        .login-form h2{
+            text-align: center;
+            margin-bottom: 25px;
+            color: #333;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="login1">
+        <form class="login-form">
+            <h2>LOGIN HERE</h2>
+            <div class="input1">
+                <label for="username">username</label>
+                <input type="text" id="username" required>
+            </div>
+            <div calss="input2">
+                <label for="password">password</label>
+                <input type="password" id="password" required>  
+            </div>
+            <button type="submit">sign in</button>
+            <p class="input3">Don't have an account ?<a>sign up</a></p>
+        </form>
+    </div>
+</body>
+</html>
